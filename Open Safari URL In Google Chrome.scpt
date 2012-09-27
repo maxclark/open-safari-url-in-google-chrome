@@ -6,4 +6,5 @@ tell application "Google Chrome"
 	else
 		open location currentURL
 	end if
+	set visible to true
 end tell
